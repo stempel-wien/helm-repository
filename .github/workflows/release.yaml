@@ -2,7 +2,7 @@ name: "Generic chart SemVer release"
 
 on:
   push:
-    branches: ["develop"]
+    branches: ["main", "develop"]
 
 jobs:
   release:
